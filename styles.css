@@ -1,0 +1,68 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4fdf4; /* Light green background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark gray for text */
+  }
+  
+  /* Header */
+  h1 {
+    color: #2d572c; /* Deep green */
+    font-size: 1.8rem;
+    margin: 20px 0;
+  }
+  
+  /* Table styles */
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff; /* White background for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  th, td {
+    border: 1px solid #d3e5d3; /* Light green border */
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #2d572c; /* Deep green for header */
+    color: #fff; /* White text for contrast */
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #f9fef9; /* Slightly off-white for table cells */
+    font-size: 0.9rem;
+  }
+  
+  td:hover {
+    background-color: #d3e5d3; 
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      font-size: 0.8rem;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .note {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #2d572c; 
+    background-color: #f0fff0; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
