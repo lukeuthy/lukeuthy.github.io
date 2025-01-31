@@ -1,45 +1,44 @@
-/* General styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4fdf4; /* Light green background */
+    background-color: #f4fdf4; 
     margin: 0;
     padding: 0;
-    color: #333; /* Dark gray for text */
+    color: #333;
   }
   
-  /* Header */
+  
   h1 {
-    color: #2d572c; /* Deep green */
+    color: #2d572c; 
     font-size: 1.8rem;
     margin: 20px 0;
   }
   
-  /* Table styles */
+ 
   table {
     width: 90%;
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: #fff; /* White background for the table */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   th, td {
-    border: 1px solid #d3e5d3; /* Light green border */
     padding: 12px;
     text-align: center;
   }
   
   th {
-    background-color: #2d572c; /* Deep green for header */
-    color: #fff; /* White text for contrast */
+    background-color: #2d572c; 
+    color: #fff; 
     font-size: 1rem;
     font-weight: bold;
   }
   
   td {
-    background-color: #f9fef9; /* Slightly off-white for table cells */
+    background-color: #f9fef9; 
     font-size: 0.9rem;
   }
+
   
   td:hover {
     background-color: #d3e5d3; 
